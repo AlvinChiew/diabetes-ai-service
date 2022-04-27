@@ -1,3 +1,6 @@
+# TBD: add prediction probability 
+# TBD: feature selection study to remove unimportant/non-impactful feature
+
 import pickle
 import pandas as pd
 

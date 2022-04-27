@@ -1,4 +1,7 @@
 import os
 
-def validate_api_key(key):
-    return key == os.environ.get("API_KEY")
+def auth_api_key(key):
+    if key == os.environ.get("API_KEY"):
+        return True
+    else:
+        return False
