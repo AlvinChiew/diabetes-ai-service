@@ -1,6 +1,20 @@
 # Obesity AI Service
 `Obesity Prediction` service hosted on AWS ECS. <br>
 
+# WIP
+- [x] Review obesity population related publications and obtain dataset
+- [x] Perform feature engineering to clean dataset
+- [x] Train an AI model to predict individual obesity
+- [x] Craete an automated test bench to validate model input nad output behavior
+- [x] Craete an API service
+- [ ] Create AWS infra configuration to host service on AWS ECS
+- [ ] Create CI/CD pipeline (Github to AWS).
+- [ ] Perform grid search to optimiza accuracy via hyperparameter tuning
+- [ ] Perform data exploratory analysis on real data in raw dataset via BI tool / Python to study population distribution.
+- [ ] Extract and show prediction probability 
+- [ ] Conduct feature selection study to remove unimportant/non-impactful feature
+- [ ] Create interactive web application
+
 ## Algorithm
 `Gradient boosting classification` from Scikit Learn (alternative to `XGBoost`) is used for reasons below: <br>
 1. yields lower bias error with ensemble of decision trees, i.e. higher accuracy generally.
